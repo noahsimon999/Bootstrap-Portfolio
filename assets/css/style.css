@@ -1,0 +1,130 @@
+
+/* Universal */
+
+body {
+    background-color: #f2f2f2;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.5;
+    color: #777777;
+    background-image: url(../assets/images/what-the-hex.png);
+    margin: 0px;
+}
+
+/* Header */
+
+header {
+    background-color: white;
+    border-bottom: solid 2px;
+    border-color: #cccccc;
+    height: 90px;
+    width: 100%;
+    
+}
+
+navbar.navbar-expand-lg.navbar-light.bg-light {
+    width: 960px;
+    margin: 0 auto; 
+}
+
+.navbar-brand {
+    position: relative;
+    left: -1%;
+    top: -10px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 330px;
+    height: 90px;
+    text-align: center;
+    float: left;
+    margin-top: 0px;
+    padding-top: 19px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.navbar-nav {
+    position: relative;
+    right: -75%;
+    }
+
+.navbar-brand h1 {
+    color: white;
+    }
+
+
+/* About Me */
+
+#sectionHeader {
+    margin-top: 0px; 
+    font-family: 'Georgia', Times, 'Times New Roman', serif; 
+    color: #4aaaa5;
+}
+
+#aboutMe {
+    background-color: #ffffff;
+    border: solid 1px; 
+    border-color: #dddddd;
+    margin: auto;
+    margin-top:50px;
+    margin-bottom: 100px;
+    padding: 35px;
+}
+
+#profilePic {
+    height:200px; 
+    width: 200px; 
+    float:left; 
+    margin-right:15px; 
+    margin-bottom:15px;
+    margin-top: 10px;
+}
+
+#intro {
+    font-style: italic;
+}
+
+/* Portfolio Page */
+
+#Portfolio {
+    background-color: #ffffff;
+    border-color: #dddddd;
+    margin: auto;
+    margin-bottom: 100px;
+
+    padding: 35px;
+}
+
+.img1 {
+    position: relative;
+    height: 200px;
+    width: 275px;
+    float: left;
+    margin-bottom: 57px;
+    margin-right: 40px;
+}
+
+.img1 img {
+    height: 200px;
+    width: 275px;
+    border: 1px solid #ccc 
+}
+
+.text1 {
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    background-color: #4aaaa5;
+    left:0px;
+    top: 140px;
+    height: 35px;
+    width:276px;
+    text-align: center;
+    padding-top:14px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.text1:hover {
+    color: white;
+    background-color: #3E0CE8;
+    opacity: .9;
+    font-size: 18px;
+}
