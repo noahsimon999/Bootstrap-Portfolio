@@ -32,7 +32,7 @@ navbar.navbar-expand-lg.navbar-light.bg-light {
     top: -10px;
     background-color: #4aaaa5;
     color: white;
-    width: 330px;
+    width: 340px;
     height: 90px;
     text-align: center;
     float: left;
@@ -44,6 +44,7 @@ navbar.navbar-expand-lg.navbar-light.bg-light {
 .navbar-nav {
     position: relative;
     right: -75%;
+    top: -9px;
     }
 
 .navbar-brand h1 {
@@ -108,6 +109,10 @@ navbar.navbar-expand-lg.navbar-light.bg-light {
     border: 1px solid #ccc 
 }
 
+.img1:hover {
+    box-shadow: 2px 2px 2px gray;
+}
+
 .text1 {
     position: absolute;
     font-size: 15px;
@@ -116,9 +121,9 @@ navbar.navbar-expand-lg.navbar-light.bg-light {
     left:0px;
     top: 140px;
     height: 35px;
-    width:276px;
+    width:275px;
     text-align: center;
-    padding-top:14px;
+    padding-top:5px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
@@ -127,4 +132,19 @@ navbar.navbar-expand-lg.navbar-light.bg-light {
     background-color: #3E0CE8;
     opacity: .9;
     font-size: 18px;
+}
+
+/* Contact */
+
+#submit {
+    background-color: #4aaaa5; 
+    color: white; 
+    width: 115px; 
+    height: 40px; 
+    font-size: 18px; 
+    margin-top: 15px;
+}
+
+#submit:hover {
+    border: 1px solid #4aaaa5;
 }
