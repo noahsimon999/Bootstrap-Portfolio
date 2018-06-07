@@ -70,6 +70,10 @@ navbar.navbar-expand-lg.navbar-light.bg-light {
     padding: 35px;
 }
 
+profileSpacer {
+    margin-bottom: 25px;
+}
+
 #profilePic {
     height:200px; 
     width: 200px; 
