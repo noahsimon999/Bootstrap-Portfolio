@@ -1,5 +1,5 @@
 
-/* Universal */
+/* -------------------------------------- Universal -------------------------------------- */
 
 body {
     background-color: #f2f2f2;
@@ -32,7 +32,11 @@ footer {
     width: 100%;
 }
 
-/* Header */
+footer p {
+    padding-top: 15px;
+}
+
+/*  -------------------------------------- Header -------------------------------------- */
 
 header {
     background-color: white;
@@ -74,7 +78,7 @@ navbar.navbar-expand-lg.navbar-light.bg-light {
 
 
 
-/* About Me */
+/*  -------------------------------------- About Me -------------------------------------- */
 
 #sectionHeader {
     margin-top: 0px; 
@@ -109,7 +113,7 @@ profileSpacer {
     font-style: italic;
 }
 
-/* Portfolio Page */
+/*  -------------------------------------- Portfolio Page -------------------------------------- */
 
 #Portfolio {
     background-color: #ffffff;
@@ -166,7 +170,7 @@ profileSpacer {
     font-size: 18px;
 }
 
-/* Contact */
+/*  -------------------------------------- Contact -------------------------------------- */
 
 #submit {
     background-color: #4aaaa5; 
@@ -181,32 +185,7 @@ profileSpacer {
     border: 1px solid #4aaaa5;
 }
 
-
-
-
-
-
-
-
-
-/* Responsiveness */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*  -------------------------------------- Responsiveness -------------------------------------- */
 
 @media only screen and (max-width: 980px) {
     body {
@@ -305,16 +284,17 @@ profileSpacer {
     .navbar-brand {
         width: 100%;
         position: relative;
-        left: -1%;
+        left: -15%;
         top: -10px;
         background-color: #4aaaa5;
         color: white;
-        width: 340px;
+        width: 150%;
         height: 90px;
         text-align: center;
         float: left;
-        margin-top: 0px;
-        padding-top: 19px;
+        
+        margin: 0px auto;
+        padding: 19px 50px 0px 50px;
         font-family: 'Georgia', Times, 'Times New Roman', serif;
     }
 
@@ -324,10 +304,12 @@ profileSpacer {
         position: relative;
         left: 0px;
         z-index: 1;
+        width: 150px;
         box-shadow: 1px 1px 1px grey;
+        padding-left: 10px;
     }
 
-    #aboutme {
+    #aboutme #Portfolio {
         z-index: 2;
     }
 
