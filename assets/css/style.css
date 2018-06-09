@@ -10,6 +10,28 @@ body {
     margin: 0px;
 }
 
+
+#footerWidth {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+footer {
+    background-color: #666666;
+    height: 60px;
+    border-top: solid 10px;
+    border-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    margin: 0px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
 /* Header */
 
 header {
@@ -18,7 +40,6 @@ header {
     border-color: #cccccc;
     height: 90px;
     width: 100%;
-    
 }
 
 navbar.navbar-expand-lg.navbar-light.bg-light {
@@ -45,11 +66,12 @@ navbar.navbar-expand-lg.navbar-light.bg-light {
     position: relative;
     right: -75%;
     top: -9px;
-    }
+}
 
 .navbar-brand h1 {
     color: white;
     }
+
 
 
 /* About Me */
@@ -104,7 +126,7 @@ profileSpacer {
 
 
 
-.img1 {
+.imgPortfolio {
     position: relative;
     height: 200px;
     width: 275px;
@@ -113,17 +135,17 @@ profileSpacer {
     margin-right: 40px;
 }
 
-.img1 img {
+.imgPortfolio img {
     height: 200px;
     width: 275px;
     border: 1px solid #ccc 
 }
 
-.img1:hover {
+.imgPortfolio:hover {
     box-shadow: 2px 2px 2px gray;
 }
 
-.text1 {
+.imgTitle {
     position: absolute;
     font-size: 15px;
     color: white;
@@ -137,7 +159,7 @@ profileSpacer {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
-.text1:hover {
+.imgTitle:hover {
     color: white;
     background-color: #3E0CE8;
     opacity: .9;
@@ -159,11 +181,79 @@ profileSpacer {
     border: 1px solid #4aaaa5;
 }
 
+
+
+
+
+
+
+
+
 /* Responsiveness */
 
-@media  screen and (max-width: 320px)  {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 980px) {
+    body {
+        color:green;
+    }  
+}
+
+@media only screen and (max-width: 770px) {
+    body {
+        color:blue;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        color:red;
+    }
+    
     header {
+        background-color: white;
+        border-bottom: solid 2px;
+        border-color: #cccccc;
         height: 150px;
+        width: 100%;
     }
 
+    .navbar-brand {
+        width: 100%;
+        position: relative;
+        left: -1%;
+        top: -10px;
+        background-color: #4aaaa5;
+        color: white;
+        width: 340px;
+        height: 90px;
+        text-align: center;
+        float: left;
+        margin-top: 0px;
+        padding-top: 19px;
+        font-family: 'Georgia', Times, 'Times New Roman', serif;
+    }
+
+    .navbar {
+        background-color: white;
+        border: 1px solid grey;
+
+    }
+
+  
 }
