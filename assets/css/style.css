@@ -130,10 +130,10 @@ profileSpacer {
 }
 
 #aboutMe #profilePic {
-    animation: fadeIn 2s;
+    animation: fadeIn2 2s;
 }
 
-@keyframes fadeIn {
+@keyframes fadeIn2 {
     0% {
         opacity: 0.1;
     }
@@ -361,8 +361,12 @@ profileSpacer {
         padding-left: 10px;
     }
 
-    #aboutme #Portfolio {
+    #aboutMe #Portfolio {
         z-index: 2;
+    }
+
+    #aboutMe img {
+        float: none;
     }
 
   
