@@ -13,7 +13,6 @@ body {
     margin: 0px;
 }
 
-
 #footerWidth {
     width: 100%;
     position: fixed;
@@ -175,6 +174,7 @@ profileSpacer {
 
 .imgPortfolio:hover {
     box-shadow: 2px 2px 2px gray;
+    transform: scale(1.1, 1.1);
 }
 
 .imgTitle {
@@ -189,13 +189,6 @@ profileSpacer {
     text-align: center;
     padding-top:5px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-}
-
-.imgTitle:hover {
-    color: white;
-    background-color: #3E0CE8;
-    opacity: .9;
-    font-size: 18px;
 }
 
 .imgPortfolio, .imgTitle{
